@@ -106,7 +106,7 @@ function vtkImageProperty(publicAPI, model) {
   };
 
   publicAPI.setInterpolationTypeToNearest = () => {
-    publicAPI.setInterpolationType(InterpolationType.NEAREST);
+    return publicAPI.setInterpolationType(InterpolationType.NEAREST);
   };
 
   publicAPI.setInterpolationTypeToLinear = () => {
